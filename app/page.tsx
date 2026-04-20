@@ -5,34 +5,39 @@ const treatments = [
     id: "T-001",
     slug: "bihoods",
     name: "Bihoods",
-    description: "Archetype generation and behavioral parameter assignment.",
+    description: "Archetype generation and identity stack assessment.",
+    pdf: "/pdf/bihoods.pdf",
   },
   {
     id: "T-002",
     slug: "victim-interface",
     name: "Victim Interface",
-    description: "Lyric input processing and normalized output rendering.",
+    description: "Shame target normalization with lyric processing.",
+    pdf: "/pdf/victim-interface.pdf",
   },
   {
     id: "T-003",
     slug: "disassociations",
     name: "Disassociations",
-    description: "Part-whole relational extrapolation from structured sequence.",
+    description: "Part-whole separation ritual system.",
+    pdf: "/pdf/disassosations.pdf",
   },
 ];
 
 export default function Home() {
   return (
     <div className="min-h-screen bg-white dark:bg-black font-mono text-black dark:text-white p-8 md:p-16">
-      <header className="mb-16">
+      <header className="mb-8">
         <p className="text-xs uppercase tracking-widest text-zinc-400 mb-2">
           Office of the Generative Witness
         </p>
         <h1 className="text-2xl font-normal">Active Treatments</h1>
         <p className="text-xs text-zinc-400 mt-4 max-w-md">
-          The following treatments are currently in issuance. Each treatment
-          constitutes a normalized procedure for the processing of lyric input.
-          Access is granted upon entry.
+          all seed names and data are / anonymous as organs, our most blameless / machines, your sensations
+        </p>
+
+        <p className="text-xs text-zinc-400 mt-4 max-w-md">
+          are your own until we take the mean / of us, together. we, the Lions, with love / look forward to seeing and being seen.
         </p>
       </header>
 
@@ -64,8 +69,8 @@ export default function Home() {
         </ul>
       </nav>
 
-      <footer className="mt-16 text-xs text-zinc-400">
-        <p>All outputs are procedural. All inputs are subject to treatment.</p>
+      <footer className="mt-8 text-xs text-zinc-400">
+        <p>Nothing is random. All chooses you don't understand were based on your chosen seed.</p>
       </footer>
     </div>
   );
