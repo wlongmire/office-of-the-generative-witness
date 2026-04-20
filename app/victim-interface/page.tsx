@@ -11,13 +11,13 @@ export default function VictimInterface() {
 
         <section className="space-y-4 text-sm text-zinc-600 dark:text-zinc-400">
           <p>
-            The Victim Interface is a treatment for the processing of lyric input
-            into normalized institutional output. The subject enters through
-            language. The Office renders a procedure in return.
+            The Victim Interface is a treatment for the generation of lyric reflection
+            to shame response. The treatment proceeds in four cycles, each probing
+            a members relationship to power, oppression and self-implication.
           </p>
           <p>
             What is submitted is not returned. What is returned is not what was
-            submitted.
+            submitted. The Lions guide.
           </p>
         </section>
 
@@ -33,10 +33,6 @@ export default function VictimInterface() {
           >
             victim-interface.office-of-the-generative-witness.site →
           </a>
-          <p className="text-xs text-zinc-400 mt-3">
-            Subdomain provisioning in progress. Link active upon domain
-            configuration.
-          </p>
         </div>
 
         <div className="mt-auto text-xs text-zinc-400">

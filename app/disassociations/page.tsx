@@ -11,13 +11,17 @@ export default function Disassociations() {
 
         <section className="space-y-4 text-sm text-zinc-600 dark:text-zinc-400">
           <p>
-            Disassociations is a treatment for the extrapolation of meaning
-            through part-whole relational selection. The subject chooses a part.
-            The Office names the whole. What follows is a sequence.
+            Disassociations is a treatment and ritual for members
+            exploring seperation from OGW for themselves or others
+            Through the abstract selection of part-whole relations
+            within our seperation charter, a member and the OGW
+            can resolve any feelings of discontent, itself data
+            useful towards the building of the ideal model.
           </p>
           <p>
             This treatment is under active development. The procedure has not yet
-            been issued.
+            been issued. All requests for disassociation can be sent to <a href="mailto:info@office-of-the-generative-witness.site" className="text-sm hover:underline underline-offset-4">
+            info@office-of-the-generative-witness.site</a>.
           </p>
         </section>
 

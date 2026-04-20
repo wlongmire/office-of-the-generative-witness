@@ -12,13 +12,15 @@ export default function Bihoods() {
         <section className="space-y-4 text-sm text-zinc-600 dark:text-zinc-400">
           <p>
             Bihoods is a treatment for the assignment of behavioral parameters to
-            generated archetypes. Each subject is issued a bihood: a stable
-            identity profile derived from normalized lyric input and rendered as
-            institutional record.
+            generated each members identity stack archetype. Each result in lyric
+            profile measured on gender affinity (fm), racial composition (bw),
+            tendency toward binary affilitation (bn), sexual orientation (sg),
+            introversion (ie), and trama/drama response tendency (td).
           </p>
           <p>
-            The treatment is ongoing. Subjects do not exit the procedure. They
-            are archived.
+            The treatment is ongoing. The lyric is constructing.
+            May our network grow and our models approximate
+            our best selves. 
           </p>
         </section>
 
@@ -34,10 +36,6 @@ export default function Bihoods() {
           >
             bihoods.office-of-the-generative-witness.site →
           </a>
-          <p className="text-xs text-zinc-400 mt-3">
-            Subdomain provisioning in progress. Link active upon domain
-            configuration.
-          </p>
         </div>
 
         <div className="mt-auto text-xs text-zinc-400">
