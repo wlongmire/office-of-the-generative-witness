@@ -8,7 +8,7 @@ export default function Bihoods() {
           <Image src="/treatment-icons/bihoods.png" alt="Bihoods" width={48} height={48} className="shrink-0" />
           <div>
             <p className="text-xs uppercase tracking-widest text-zinc-400 mb-2">
-              Office of the Generative Witness — Treatment T-001
+              <a href="/" className="hover:underline underline-offset-4">Office of the Generative Witness</a> — Treatment T-001
             </p>
             <h1 className="text-2xl font-normal">Bihoods</h1>
           </div>

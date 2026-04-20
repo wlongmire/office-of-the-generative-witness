@@ -8,7 +8,7 @@ export default function Disassociations() {
           <Image src="/treatment-icons/disassosations.png" alt="Disassociations" width={48} height={48} className="shrink-0" />
           <div>
             <p className="text-xs uppercase tracking-widest text-zinc-400 mb-2">
-              Office of the Generative Witness — Treatment T-003
+              <a href="/" className="hover:underline underline-offset-4">Office of the Generative Witness</a> — Treatment T-003
             </p>
             <h1 className="text-2xl font-normal">Disassociations</h1>
           </div>

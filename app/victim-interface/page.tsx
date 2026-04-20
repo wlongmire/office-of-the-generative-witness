@@ -8,7 +8,7 @@ export default function VictimInterface() {
           <Image src="/treatment-icons/victim-interface.png" alt="Victim Interface" width={48} height={48} className="shrink-0" />
           <div>
             <p className="text-xs uppercase tracking-widest text-zinc-400 mb-2">
-              Office of the Generative Witness — Treatment T-002
+              <a href="/" className="hover:underline underline-offset-4">Office of the Generative Witness</a> — Treatment T-002
             </p>
             <h1 className="text-2xl font-normal">Victim Interface</h1>
           </div>
