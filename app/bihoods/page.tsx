@@ -43,6 +43,15 @@ export default function Bihoods() {
           </a>
         </div>
 
+        <a
+          href="/pdf/bihoods.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="border border-zinc-200 dark:border-zinc-800 p-4 text-xs uppercase tracking-widest text-zinc-400 hover:text-black dark:hover:text-white hover:border-black dark:hover:border-white transition-colors lg:inline-block"
+        >
+          Open Source Document →
+        </a>
+
         <div className="mt-auto text-xs text-zinc-400">
           <a href="/" className="hover:underline underline-offset-4">
             ← Return to Office
@@ -50,7 +59,7 @@ export default function Bihoods() {
         </div>
       </div>
 
-      <div className="w-full lg:w-1/2 flex flex-col p-8 md:p-16">
+      <div className="hidden lg:flex w-full lg:w-1/2 flex-col p-8 md:p-16">
         <p className="text-xs uppercase tracking-widest text-zinc-400 mb-4 shrink-0">
           Source Document
         </p>
