@@ -1,12 +1,17 @@
+import Image from "next/image";
+
 export default function Disassociations() {
   return (
     <div className="min-h-screen flex flex-col lg:flex-row lg:h-screen lg:overflow-hidden bg-white dark:bg-black font-mono text-black dark:text-white">
       <div className="w-full lg:w-1/2 flex flex-col gap-8 p-8 md:p-16 lg:overflow-y-auto">
-        <header>
-          <p className="text-xs uppercase tracking-widest text-zinc-400 mb-2">
-            Office of the Generative Witness — Treatment T-003
-          </p>
-          <h1 className="text-2xl font-normal">Disassociations</h1>
+        <header className="flex items-center gap-4">
+          <Image src="/treatment-icons/disassosations.png" alt="Disassociations" width={48} height={48} className="shrink-0" />
+          <div>
+            <p className="text-xs uppercase tracking-widest text-zinc-400 mb-2">
+              Office of the Generative Witness — Treatment T-003
+            </p>
+            <h1 className="text-2xl font-normal">Disassociations</h1>
+          </div>
         </header>
 
         <section className="space-y-4 text-sm text-zinc-600 dark:text-zinc-400">
@@ -48,6 +53,7 @@ export default function Disassociations() {
         <iframe
           src="/pdf/disassosations.pdf#navpanes=0"
           className="w-full border border-zinc-200 dark:border-zinc-800 h-[60vh] lg:h-auto lg:flex-1"
+          style={{ WebkitOverflowScrolling: "touch", overflowY: "scroll" }}
         />
       </div>
     </div>

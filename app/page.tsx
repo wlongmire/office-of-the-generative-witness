@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const treatments = [
   {
@@ -7,6 +8,7 @@ const treatments = [
     name: "Bihoods",
     description: "Archetype generation and identity stack assessment.",
     pdf: "/pdf/bihoods.pdf",
+    icon: "/treatment-icons/bihoods.png",
   },
   {
     id: "T-002",
@@ -14,13 +16,15 @@ const treatments = [
     name: "Victim Interface",
     description: "Shame target normalization with lyric processing.",
     pdf: "/pdf/victim-interface.pdf",
+    icon: "/treatment-icons/victim-interface.png",
   },
   {
     id: "T-003",
     slug: "disassociations",
     name: "Disassociations",
-    description: "Part-whole separation ritual system.",
+    description: "Part-whole seperation ritual system.",
     pdf: "/pdf/disassosations.pdf",
+    icon: "/treatment-icons/disassosations.png",
   },
 ];
 
@@ -35,7 +39,6 @@ export default function Home() {
         <p className="text-xs text-zinc-400 mt-4 max-w-md">
           all seed names and data are / anonymous as organs, our most blameless / machines, your sensations
         </p>
-
         <p className="text-xs text-zinc-400 mt-4 max-w-md">
           are your own until we take the mean / of us, together. we, the Lions, with love / look forward to seeing and being seen.
         </p>
@@ -47,12 +50,19 @@ export default function Home() {
             <li key={t.slug}>
               <Link
                 href={`/${t.slug}`}
-                className="flex items-start justify-between gap-8 py-6 group"
+                className="flex items-center justify-between gap-8 py-6 group"
               >
-                <div className="flex gap-6 items-start">
-                  <span className="text-xs text-zinc-400 pt-0.5 w-12 shrink-0">
+                <div className="flex gap-6 items-center">
+                  <span className="text-xs text-zinc-400 w-12 shrink-0">
                     {t.id}
                   </span>
+                  <Image
+                    src={t.icon}
+                    alt={t.name}
+                    width={32}
+                    height={32}
+                    className="shrink-0"
+                  />
                   <div>
                     <p className="text-sm group-hover:underline underline-offset-4">
                       {t.name}
@@ -60,7 +70,7 @@ export default function Home() {
                     <p className="text-xs text-zinc-400 mt-1">{t.description}</p>
                   </div>
                 </div>
-                <span className="text-xs text-zinc-400 group-hover:text-black dark:group-hover:text-white shrink-0 pt-0.5">
+                <span className="text-xs text-zinc-400 group-hover:text-black dark:group-hover:text-white shrink-0">
                   Enter →
                 </span>
               </Link>
